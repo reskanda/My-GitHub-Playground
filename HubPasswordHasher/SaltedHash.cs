@@ -15,7 +15,7 @@ namespace HubPasswordHasher
 
     public class SaltedHash
     {
-        // And PEPPER!
+        // And PEPPER AND MALT VINEGAR!
         public static string GenerateRandomSalt()
         {
             byte[] saltBytes;
