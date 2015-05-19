@@ -16,6 +16,7 @@ namespace HubPasswordHasher
     public class SaltedHash
     {
         // And PEPPER AND MALT VINEGAR!
+        // THIS IS THE NEW PULLY-TRY1 BRANCH.  MASTER BRANCH SHOULD NOT INCLUDE THIS LINE.
         public static string GenerateRandomSalt()
         {
             byte[] saltBytes;
